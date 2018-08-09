@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        Ray Rohder
+        v/d Vleuten & Rohder creations
       </footer>
     );
   }

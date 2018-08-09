@@ -4,7 +4,17 @@ import React, { Component } from 'react';
 import Header from './Components/header';
 import Footer from './Components/footer';
 import HomePage from './Components/Pages/homePage';
-import Nav from './Components/nav';
+import LoginPage from './Components/Pages/loginPage';
+
+
+// Route Components
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Switch,
+  Redirect
+} from 'react-router-dom'
 
 // includes
 import './Assets/css/style.css';
@@ -14,7 +24,6 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Nav />
         <HomePage />
 
         <Footer />

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../Assets/resources/logo.jpg';
+import Nav from './nav';
 
 class Header extends Component {
   render() {
@@ -9,6 +10,8 @@ class Header extends Component {
         <div className="logo">
           <img src={logo} width="300" height="250" />
         </div>
+
+        <Nav />
 
       </header>
     );

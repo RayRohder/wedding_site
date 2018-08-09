@@ -13,8 +13,12 @@ It contains a login, information, rsvp and  foto page.
 - https://medium.freecodecamp.org/beginners-guide-to-react-router-4-8959ceb3ad58 [RR]
 
 # Setup React [RR]:
-- npm install (first time only)
-- npm install react-router-dom (first time only)
+ first time only
+- npm install 
+- npm install react-router-dom 
+- npm install --save reactstrap react react-dom
+ 
+ run
 - npm start
 
 # Log:
