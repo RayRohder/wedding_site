@@ -16,6 +16,7 @@ It contains a login, information, rsvp and  foto page.
  first time only
 - npm install 
 - npm install react-router-dom 
+- npm install bootstrap --save
 - npm install --save reactstrap react react-dom
  
  run
