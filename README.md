@@ -11,6 +11,7 @@ It contains a login, information, rsvp and  foto page.
 # Tutorial info:
 - https://dzone.com/articles/a-step-by-step-tutorial-for-developing-a-progressi [RR]
 - https://medium.freecodecamp.org/beginners-guide-to-react-router-4-8959ceb3ad58 [RR]
+- https://medium.com/@andy.neale/learning-react-setting-up-a-minimal-react-development-environment-fcd17fc7dee1 [KV]
 
 # Setup React [RR]:
 - npm install (first time only)
