@@ -5,9 +5,9 @@ class Nav extends Component {
     return (
         <nav>
           <ul>
-            <li className="first"><a href="#">Home</a></li>
+            <li><a class="active" href="#">Home</a></li>
             <li><a href="#">RSVP</a></li>
-            <li className="last"><a href="#">{"Foto's"}</a></li>
+            <li><a href="#">{"Foto's"}</a></li>
           </ul>
         </nav>
     );

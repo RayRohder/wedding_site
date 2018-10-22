@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 
 // Components
 import Header from './Components/header';
+import Nav from './Components/nav';
 import Footer from './Components/footer';
-import HomePage from './Components/Pages/homePage';
-import LoginPage from './Components/Pages/loginPage';
-
+import Main from './Components/main';
 
 // Route Components
 import {
@@ -23,10 +22,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <HomePage />
-
-        <Footer />
+        <Nav />
+        <div class="content">
+          <Header />
+          <Main />
+          <Footer />
+        </div>
       </div>
     );
   }

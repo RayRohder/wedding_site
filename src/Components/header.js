@@ -1,18 +1,13 @@
 import React, { Component } from 'react';
-import logo from '../Assets/resources/logo.jpg';
-import Nav from './nav';
+import logo from '../Assets/resources/logo_300x250.png';
 
 class Header extends Component {
   render() {
     return (
       <header>
-
         <div className="logo">
-          <img src={logo} width="300" height="250" />
-        </div>
-
-        <Nav />
-
+          <img src={logo}/>
+          </div>
       </header>
     );
   }
