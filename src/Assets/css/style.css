@@ -1,6 +1,6 @@
 /*
 Ral 5018 : #21888F
-Ral 7036 : #9A9697
+Ral 7036 : #9A9697 : rgba(5,139,140,1)
 */
 
 .App{
@@ -17,7 +17,10 @@ Ral 7036 : #9A9697
 nav{
   padding: 10px 0px 0px 0px;
   height: 100%;
-  background-color: rgba(0,0,0, .4);
+  background-color: rgba(0,0,0, .3);
+
+  width: 150px;
+  position: fixed;
 
   border-style: solid;
   border-color: blue;
@@ -27,7 +30,6 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 150px;
 }
 
 nav li a {
@@ -38,7 +40,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #21888F;
+    background-color: rgba(5,139,140,.5);
     color: white;
     text-decoration: none;
 }
@@ -48,6 +50,7 @@ nav li a:hover {
 .content{
   width: 100%;
   padding: 10px 50px 0px 50px;
+  margin-left: 150px;
 
   border-style: solid;
   border-color: yellow;
