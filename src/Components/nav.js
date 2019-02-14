@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
+
+import HomePage from './Pages/homePage';
+import InfoPage from './Pages/infoPage';
 
 class Nav extends Component {
   render() {
     return (
         <nav>
           <ul>
-            <li><a class="active" href="#">Home</a></li>
+            <li><Link to={'/home'}>Home</Link></li>
+            <li><Link to={'/info'}>Info</Link></li>
             <li><a href="#">RSVP</a></li>
-            <li><a href="#">{"Foto's"}</a></li>
           </ul>
         </nav>
     );

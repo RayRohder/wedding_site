@@ -20,15 +20,17 @@ import './Assets/css/style.css';
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <Nav />
-        <div class="content">
-          <Header />
-          <Main />
-          <Footer />
+    return (      
+        <Router>
+        <div className="App">
+          <Nav />
+          <div class="content">
+            <Header />
+            <Main />
+            <Footer />
+          </div>
         </div>
-      </div>
+      </Router>
     );
   }
 }
