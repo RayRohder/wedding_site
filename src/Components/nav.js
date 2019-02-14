@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 
 import HomePage from './Pages/homePage';
 import InfoPage from './Pages/infoPage';
+import RsvpPage from './Pages/rsvpPage';
 
 class Nav extends Component {
   render() {
@@ -11,7 +12,7 @@ class Nav extends Component {
           <ul>
             <li><Link to={'/home'}>Home</Link></li>
             <li><Link to={'/info'}>Info</Link></li>
-            <li><a href="#">RSVP</a></li>
+            <li><Link to={'/rsvp'}>RSVP</Link></li>
           </ul>
         </nav>
     );

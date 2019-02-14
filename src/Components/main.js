@@ -10,6 +10,7 @@ import {
 
 import HomePage from './Pages/homePage';
 import InfoPage from './Pages/infoPage';
+import RsvpPage from './Pages/rsvpPage';
 
 class Main extends Component {
   render() {
@@ -17,7 +18,8 @@ class Main extends Component {
         <div class="main">
           <Switch>
             <Route path='/home' component={HomePage} />
-            <Route path='/Info' component={InfoPage} />
+            <Route path='/info' component={InfoPage} />
+            <Route path='/rsvp' component={RsvpPage} />
           </Switch>
         </div>
     );

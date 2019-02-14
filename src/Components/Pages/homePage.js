@@ -6,7 +6,9 @@ class HomePage extends Component {
   render() {
     return (
       <div class="home">
-        <img src={foto}/>
+      <h1>Raymond & Liesbeth</h1>
+
+      <h2>Zeggen JA over</h2>
       </div>
     );
   }
