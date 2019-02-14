@@ -100,11 +100,28 @@ header .logo{
 /* --- end main --- */
 
 .info, .home, .rsvp{
-  max-width: 40%;
+  padding: 10px;
+  width: 600px;
   min-height: 50%;
   color: white;
   font-family: "Baskerville Old Face";
   background-color: rgba(0,0,0, .3);
+}
+
+.rsvp{
+  padding: 20px;
+  text-align: left;
+}
+.sendButton{
+  text-align: right;
+}
+
+.rsvpFormInput{
+  width: 400px;
+  height: 300px;
+}
+
+.sendButton{
 }
 
 /* --- footer --- */
