@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
+import {Container, Row, Col} from 'react-bootstrap';
+
+import logo from '../Assets/resources/150x120.png';
 
 import HomePage from './Pages/homePage';
 import InfoPage from './Pages/infoPage';
@@ -8,13 +11,11 @@ import RsvpPage from './Pages/rsvpPage';
 class Nav extends Component {
   render() {
     return (
-        <nav>
-          <ul>
-            <li><Link to={'/home'}>Home</Link></li>
-            <li><Link to={'/info'}>Info</Link></li>
-            <li><Link to={'/rsvp'}>RSVP</Link></li>
-          </ul>
-        </nav>
+      <nav>
+            <NavLink className="link" to={'/home'}>Home</NavLink>
+            <NavLink className="link" to={'/info'}>Info</NavLink>
+	          {/*<NavLink className="link" to={'/rsvp'}>RSVP</NavLink>*/}
+      </nav>
     );
   }
 }

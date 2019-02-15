@@ -7,9 +7,13 @@ class HomePage extends Component {
   render() {
     return (
       <div class="home">
-      <h1>Raymond & Liesbeth</h1>
-      <h2>Zeggen JA over</h2>
-      <Countdown/>
+        <h1>Raymond & Liesbeth</h1>
+        <h2>Zeggen JA over</h2>
+        <Countdown/>
+        <p>
+          Houd de website in de gaten voor eventuele updates!
+        </p>
+
       </div>
     );
   }

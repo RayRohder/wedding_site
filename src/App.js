@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 
 // Components
 import Header from './Components/header';
-import Nav from './Components/nav';
+
 import Footer from './Components/footer';
 import Main from './Components/main';
+import {Container, Row, Col} from 'react-bootstrap';
 
 // Route Components
 import {
@@ -22,15 +23,20 @@ class App extends Component {
   render() {
     return (
         <Router>
-        <div className="App">
-          <Nav />
-          <div class="content">
-            <Header />
-            <Main />
-            <Footer />
+          <div className="App">
+                <Col>
+                    <Header />
+                      <Row>
+                        <Col>
+                          <Main />
+                        </Col>
+                        <Col>
+                        </Col>
+                      </Row>
+                    <Footer />
+                </Col>
           </div>
-        </div>
-      </Router>
+        </Router>
     );
   }
 }

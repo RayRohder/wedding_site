@@ -10,7 +10,6 @@ class RsvpForm extends React.Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
 
-    let email = "Bie@BruiloftRayLies.nl"
   }
 
   handleChange(event) {

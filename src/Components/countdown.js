@@ -75,23 +75,17 @@ class Countdown extends React.Component {
       className="Countdown">
       <br/>
       <div class="row justify-content-md-center">
-        <div class="col col-lg-2">
+        <div id="countable" class="col col-lg-2">
           <span className="countdown_digit">{this.state.time.d}</span>
           <br/>Dagen
         </div>
-        <div class="col col-lg-1">
-          <span className="countdown_digit">:</span>
-          <br/><br/><br/>
-        </div>
-        <div class="col col-lg-2">
+
+        <div id="countable" class="col col-lg-2">
           <span className="countdown_digit">{this.state.time.h}</span>
           <br/>Uren
         </div>
-        <div class="col col-lg-1">
-          <span className="countdown_digit">:</span>
-          <br/><br/><br/>
-        </div>
-        <div class="col col-lg-2">
+
+        <div id="countable" class="col col-lg-2">
           <span className="countdown_digit">{this.state.time.m}</span>
           <br/>Minuten
         </div>
