@@ -13,24 +13,29 @@ import {
   Route,
   Link,
   Switch,
-  Redirect
+  Redirect,
 } from 'react-router-dom'
 
 // includes
 import './Assets/css/style.css';
 
 class App extends Component {
+
+  constructor(){
+    super();
+  }
+
   render() {
     return (
         <Router>
           <div className="App">
                 <Col>
                     <Header />
-                      <Row>
-                        <Col>
+                      <Row className="AppRow">
+                        <Col className="AppCol">
                           <Main />
                         </Col>
-                        <Col>
+                        <Col className="AppCol">
                         </Col>
                       </Row>
                     <Footer />

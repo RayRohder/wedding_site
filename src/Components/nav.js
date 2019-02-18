@@ -12,7 +12,7 @@ class Nav extends Component {
   render() {
     return (
       <nav>
-            <NavLink className="link" to={'/home'}>Home</NavLink>
+            <NavLink className="link" to={'/'}>Home</NavLink>
             <NavLink className="link" to={'/info'}>Info</NavLink>
 	          {/*<NavLink className="link" to={'/rsvp'}>RSVP</NavLink>*/}
       </nav>

@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        v/d Vleuten & Rohder creations
+        Rohder creations
       </footer>
     );
   }

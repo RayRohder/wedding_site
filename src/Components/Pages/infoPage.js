@@ -16,8 +16,12 @@ class InfoPage extends Component {
           Klein Zwitserland 8, 5126 TA Gilze<br /><br />
         </p>
         <p>
-            Voor vragen kunt u terecht bij onze <br/>
-            ceremoniemeester Bie Kin:<br/>
+          Er is geen specifieke dresscode, <br/>
+          maar we zouden het leuk vinden als u netjes gekleed komt.<br /><br />
+        </p>
+        <p>
+          Voor vragen kunt u terecht bij onze <br/>
+          ceremoniemeester Bie Kin:<br/>
           Bie@BruiloftRayLies.nl
         </p>
       </div>

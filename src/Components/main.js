@@ -5,7 +5,7 @@ import {
   Route,
   Link,
   Switch,
-  Redirect
+  Redirect,
 } from 'react-router-dom'
 
 import HomePage from './Pages/homePage';
@@ -16,11 +16,11 @@ class Main extends Component {
   render() {
     return (
         <div class="main">
-          <Switch>
-            <Route path='/home' component={HomePage} />
+          <Switch> 
+            <Route exact path='/' component={HomePage} />
             <Route path='/info' component={InfoPage} />
             <Route path='/rsvp' component={RsvpPage} />
-            <Redirect from="/" to="home" />
+            <Redirect from="/home" to="/" />
           </Switch>
         </div>
     );

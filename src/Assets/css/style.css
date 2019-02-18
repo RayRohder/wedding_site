@@ -5,26 +5,66 @@ Ral 7036 : #9A9697 : rgba(5,139,140,1)
 
 .App{
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  min-width: 420px;
+
+  background-image: url("../resources/Proposal_1712x1000.jpg");
+  overflow-y: auto;
 
   width: 100vw;
   height: 100vh;
+
   padding: 10px;
   color: black;
   font-family: "Georgia";
 }
 
-@media (min-width: 480px) {
-    .App {
-        background-image: url("../resources/Proposal_1712x1000.jpg");
-    }
+.AppRow{
+  padding: 5px;
+  /*border-style: solid;
+  border-color: green;*/
 }
 
-@media (max-width: 480px) {
+.AppCol{
+  /*border-style: solid;
+  border-color: blue;*/
+}
+
+@media (max-width: 400px) {
     .App {
-        background-image: url("../resources/Proposal_mob_480x856.jpg");
+        padding: 5px;
+        background-image: url("../resources/Proposal_mob_400x619.jpg");
+        overflow-y: auto;
+        height: 107vh;
     }
+
+    .main p{
+      font-family: "Baskerville Old Face";
+      font-size: 20px;
+    }
+
+    .AppRow{
+      flex-direction: column;
+    }
+
+    .Countdown{
+      flex-direction: column;
+
+      font-size: 30px;
+      /*border-style: solid;
+      border-color: blue;*/
+    }
+
+    footer{
+      color: grey;
+    }
+
+}
+
+@media (min-width: 400px) {
+  footer{
+    color: white;
+  }
 }
 
 /* --- nav --- */
@@ -61,19 +101,6 @@ nav .link:hover {
 }
 
 /* --- end nav --- */
-
-/* --- content --- */
-.content{
-  flex-direction: column;
-  flex-wrap: nowrap;
-
-  height: 96vh;
-  padding: 0px 50px 0px 50px;
-  overflow: auto;
-
-  border-style: solid;
-  border-color: yellow;
-}
 
 /* --- header --- */
 header{
@@ -121,12 +148,23 @@ header .logo{
   background-color: rgba(0,0,0, .3);
 }
 
-#countable{
-  border-radius: 50%;
-  width: 115px;
-  height: 110px;
-  border: 3px solid;
-  border-color: rgba(5,139,140)
+.Countdown{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding: 10px;
+
+  /*border-style: solid;
+  border-color: red;*/
+}
+
+.countable{
+  border-radius: 75%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(5,139,140);
 }
 
 .rsvp{
@@ -142,12 +180,9 @@ header .logo{
   height: 300px;
 }
 
-.sendButton{
-}
 
 /* --- footer --- */
 footer{
-  color: white;
   font-family: "Baskerville Old Face";
   text-align: right;
 
@@ -155,4 +190,3 @@ footer{
   border-color: red;*/
 }
 /* --- end footer --- */
-/* --- end content --- */

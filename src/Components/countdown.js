@@ -1,5 +1,6 @@
 // A component is a function that retuns JSX
 import React from 'react';
+import {Container, Row, Col} from 'react-bootstrap';
 //import './Countdown.css'
 
 class Countdown extends React.Component {
@@ -71,26 +72,23 @@ class Countdown extends React.Component {
   render() {
     // startTimer();
     return (
-      <div
-      className="Countdown">
-      <br/>
-      <div class="row justify-content-md-center">
-        <div id="countable" class="col col-lg-2">
-          <span className="countdown_digit">{this.state.time.d}</span>
-          <br/>Dagen
-        </div>
+      <div className="Countdown">
+        <Row>
+          <Col className="countable">
+            <div className="countdown_digit">{this.state.time.d}</div>
+            <label>Dagen</label>
+          </Col>
 
-        <div id="countable" class="col col-lg-2">
-          <span className="countdown_digit">{this.state.time.h}</span>
-          <br/>Uren
-        </div>
+          <Col className="countable">
+            <div className="countdown_digit">{this.state.time.h}</div>
+            <label>Uren</label>
+          </Col>
 
-        <div id="countable" class="col col-lg-2">
-          <span className="countdown_digit">{this.state.time.m}</span>
-          <br/>Minuten
-        </div>
-      </div>
-      <br/>
+          <Col className="countable">
+            <div className="countdown_digit">{this.state.time.m}</div>
+            <label>Minuten</label>
+          </Col>
+        </Row>
       </div>
     )
   };
