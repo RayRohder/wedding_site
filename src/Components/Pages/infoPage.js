@@ -21,8 +21,8 @@ class InfoPage extends Component {
         </p>
         <p>
           Wilt u dat we rekening kunnen houden met <br />
-          uw dieet en/of allergie, <br />
-          geef deze dan even door aan onze ceremoniemeester.<br /><br />
+          uw dieet en/of allergie? <br />
+          Geef deze dan even door aan onze ceremoniemeester.<br /><br />
         </p>
         <p>
           Voor vragen kunt u terecht bij onze <br/>
