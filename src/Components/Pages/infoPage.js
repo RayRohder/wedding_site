@@ -20,9 +20,19 @@ class InfoPage extends Component {
           maar we zouden het leuk vinden als u netjes gekleed komt.<br /><br />
         </p>
         <p>
+          Wilt u dat we rekening kunnen houden met <br />
+          uw dieet en/of allergie, <br />
+          geef deze dan even door aan onze ceremoniemeester.<br /><br />
+        </p>
+        <p>
           Voor vragen kunt u terecht bij onze <br/>
           ceremoniemeester Bie Kin:<br/>
           Bie@BruiloftRayLies.nl
+        </p>
+        <p>
+          Belt of Whatsappt u liever, <br />
+          dan kunt u dat doen naar Ray of Lies
+          <p class="ps">Ook kunt u hen om Bie's nummer vragen</p>
         </p>
       </div>
       );

@@ -140,12 +140,17 @@ header .logo{
 }
 /* --- end main --- */
 
-.info, .home, .rsvp{
+.info, .home, .rsvp, .update{
   padding: 10px;
   color: white;
   font-family: "Baskerville Old Face";
   border-radius: 25px;
   background-color: rgba(0,0,0, .3);
+}
+
+.ps{
+  font-family: "Baskerville Old Face";
+  font-size: 20px;
 }
 
 .Countdown{
