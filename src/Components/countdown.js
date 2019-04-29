@@ -6,7 +6,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 class Countdown extends React.Component {
   constructor() {
     super();
-    let weddingDate = new Date('31 May 2019 11:00:00 GMT+1');
+    let weddingDate = new Date('31 May 2019 11:00:00 GMT+2'); //Normally GMT+1 but daylight saving time
     let weddingUnixTime = Math.round(weddingDate.getTime() / 1000);
     let currentUnixTime = Math.round((new Date()).getTime() / 1000);
 
